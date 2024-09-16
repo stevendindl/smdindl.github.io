@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(228, 237, 239);
+    background-color: rgb(192, 218, 206);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 h1 {
@@ -8,6 +8,6 @@ h1 {
 }
 h2 {
     text-align: left;
-    color: rgb(47, 69, 69);
+    color: rgb(73, 91, 91);
     margin: 15px;
 }
