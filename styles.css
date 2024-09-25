@@ -9,7 +9,7 @@ p {
 
 h1 {
     text-align: center;
-    color:black
+    color:black;
 }
 
 h2 {
@@ -41,7 +41,7 @@ h3 {
 }
 
 .project img{
-    width: 80%;
+    width: 70%;
     height: auto;
     margin: 10px;
     border: 2px solid rgb(67, 8, 8);
@@ -75,7 +75,7 @@ a{
         padding: 0; /* Remove padding on smaller screens */
     }
     .project {
-        width: 90%; /* Take up most of the width */
+        width: 75%; 
         margin: 10px auto; /* Center the project and add vertical spacing */
     }
 }
