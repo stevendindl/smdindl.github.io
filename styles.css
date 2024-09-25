@@ -25,13 +25,13 @@ h3 {
     font-style: italic;
 }
 
-.projects{
+.projects { /* Formating on how projects are positioned */
     display:flex;
     flex-wrap:wrap;
     justify-content: center; 
 }
 
-.project{
+.project { /* Box for content */
     width: 30%;
     margin: 10px;
     padding: 20px 10px;
@@ -40,7 +40,7 @@ h3 {
     box-sizing: border-box;
 }
 
-.project img{
+.project img { /* Preview Image of the Project */
     width: 70%;
     height: auto;
     margin: 10px;
@@ -49,16 +49,16 @@ h3 {
     margin: auto;
 }
 
-.project img:hover{
+.project img:hover {
     border: 2px solid white;
 }
 
-a{
+a {
     text-decoration: none;
     color:rgb(0, 0, 0)
 }
 
-.project a:hover{
+.project a:hover {
     color: white;
 }
 
@@ -75,7 +75,7 @@ a{
         padding: 0; /* Remove padding on smaller screens */
     }
     .project {
-        width: 75%; 
+        width: 80%; 
         margin: 10px auto; /* Center the project and add vertical spacing */
     }
 }
