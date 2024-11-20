@@ -25,6 +25,36 @@ h3 {
     font-style: italic;
 }
 
+/* About me */
+/* Container styling */
+
+.about {
+    display: flex; /* Ensures image and text are side-by-side */
+    align-items: center; /* Vertically align the image and text */
+    gap: 20px; /* Space between the image and text */
+    max-width: 800px; /* Set a width constraint */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 20px;
+}
+  
+/* Image styling */
+.headshot {
+    flex-shrink: 0; /* Prevent the image from shrinking */
+    width: 150px; /* Set a fixed width for the image */
+    height: 150px; /* Set a fixed height for the image */
+    border-radius: 50%; /* Make the image circular */
+    object-fit: cover; /* Crop image properly within its container */
+}
+  
+  /* Text container styling */
+  
+.about-text p {
+    margin: 10px 0 0;
+    font-size: 1rem; /* Adjust size */
+    line-height: 1.5;
+}
+  
+/* Project Section */
 .projects { /* Formating on how projects are positioned */
     display:flex;
     flex-wrap:wrap;
