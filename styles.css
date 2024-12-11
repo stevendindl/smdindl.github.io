@@ -1,3 +1,10 @@
+.title-bar {
+    background-color: rgb(225, 225, 220); /* Change to your desired color */
+    text-align: left;
+    padding: 10px 20px; /* Padding top/bottom */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
 body {
     background-color: rgb(227, 228, 222);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -45,6 +52,20 @@ h3 {
     border-radius: 50%; /* Make the image circular */
     object-fit: cover; /* Crop image properly within its container */
 }
+
+@media screen and (max-width: 530px) {
+    .about {
+        display: block; /* Stack the projects vertically */
+        align-items: center;
+        padding: 0; /* Remove padding for smaller screens */
+        text-align: center; /* Center the content */
+    }
+
+    .headshot {
+        width: 40%; /* Set width to 100% */
+        height: auto; /* Allow height to adjust */
+    }
+}
   
   /* Text container styling */
   
@@ -56,8 +77,8 @@ h3 {
   
 /* Project Section */
 .projects { /* Formating on how projects are positioned */
-    display:flex;
-    flex-wrap:wrap;
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center; 
 }
 
@@ -99,7 +120,7 @@ a {
 
 /* Media Query for smaller screens */
 /* Created with help from chatgpt */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 700px) {
     .projects {
         display: block; /* Stack the projects vertically */
         padding: 0; /* Remove padding on smaller screens */
