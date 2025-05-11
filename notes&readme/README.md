@@ -1,1 +1,0 @@
-# smdindl.github.io
