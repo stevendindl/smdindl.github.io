@@ -1,2 +1,2 @@
 # Basic First html/css site built in CSCE190
-Link to new protfolio site: 
+[Link to new protfolio site](stevendindl.github.io)
